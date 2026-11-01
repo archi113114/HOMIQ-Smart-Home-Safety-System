@@ -23,7 +23,8 @@ HOMIQ is an ESP32-based smart home safety project developed and simulated using 
 - `libraries.txt` – Required libraries
 
 ## Wokwi Simulation
-**Project link:** [[ Wokwi project URL here.](https://wokwi.com/projects/473805755748792321)
+**Project link:** [ Wokwi project URL here.](https://wokwi.com/projects/473805755748792321)
+**PROJECT PPT LINK :**[ TAKE A LOOK ABOUT PROJECT] ().[Uploading HOMIQ_v9 (2).pptx…]
 
 ## Testing
 The project has been tested in the Wokwi simulation environment. Hardware testing should be documented separately.
