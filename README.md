@@ -7,6 +7,8 @@
 
 HOMIQ is an ESP32-based smart home safety project developed and simulated using Wokwi. It integrates sensors, automated alerts, relay-based appliance control, and IoT-based monitoring to enhance home safety.
 
+
+
 ## ✨ Features
 
 - 🌫️ Smoke and combustible gas detection using the MQ-2 sensor.
@@ -17,6 +19,8 @@ HOMIQ is an ESP32-based smart home safety project developed and simulated using 
 - 📊 Real-time safety status monitoring.
 - 🔔 Mobile push notifications for smoke and fire alerts.
 - 🔄 Automatic return to normal operation when the danger condition clears.
+
+- 
 
 ## 🔌 Hardware Components and ESP32 Pin Connections
 
@@ -57,6 +61,8 @@ HOMIQ is an ESP32-based smart home safety project developed and simulated using 
 - MQ-2 D0 must not exceed the ESP32 GPIO input limit of 3.3V. Use a suitable level shifter or voltage divider if its output is 5V.
 - Do not power the connected loads directly from ESP32 GPIO pins.
 
+  
+
 ## 📱 Blynk IoT Configuration
 
 The Blynk IoT platform is used for remote appliance control, safety monitoring, and alert notifications.
@@ -73,6 +79,8 @@ The Blynk IoT platform is used for remote appliance control, safety monitoring, 
 |---|---|---|
 | Fire Smoke Alert | `fire_smoke_alert` | Sends a push notification when smoke or fire is detected. |
 
+
+
 ## 📂 Project Files
 
 - 🧪 [Wokwi Simulation Files](Simulation/)
@@ -87,6 +95,8 @@ The Blynk IoT platform is used for remote appliance control, safety monitoring, 
 6. 🚨 A push notification is sent when danger is detected.
 7. 🔄 When the environment becomes safe, the system returns to normal operation.
 
+   
+
 ## 🖼️ Project Gallery
 
 ### 💻 Wokwi Circuit Simulation
@@ -97,10 +107,14 @@ The Blynk IoT platform is used for remote appliance control, safety monitoring, 
 
 ![HOMIQ Hardware Prototype](images/HOMIQ%20Smart%20Home%20Safety%20Prototype.png)
 
+
+
 ## 🔗 Project Resources
 
 - 🔬 [Wokwi Simulation](https://wokwi.com/projects/473805755748792321)
 - 📊 [Project Presentation (PPT)](https://docs.google.com/presentation/d/1RDyi6VGtCwIQhXVjRRvC7lH809DfLNZZ/edit)
+
+  
 
 ## 🧪 Testing & Results
 
@@ -118,9 +132,13 @@ The system was simulated and tested using Wokwi to verify its detection, alert, 
 | 🚨 Mobile push notifications | ✅ Passed |
 | 🔄 Return to normal operation | ✅ Passed |
 
+
+
 ### 🔧 Physical Hardware Testing
 
 The physical HOMIQ prototype was assembled and tested using an ESP32, MQ-2 sensor, flame sensor, buzzer, relay module, 5V DC light bulb, and cooling fan. Testing was performed to evaluate sensor detection, buzzer alerts, and relay-based appliance control.
+
+
 
 ## ⚠️ Limitations & 🚀 Future Enhancements
 
@@ -130,6 +148,7 @@ The physical HOMIQ prototype was assembled and tested using an ESP32, MQ-2 senso
 - Remote monitoring and notifications require a stable internet connection.
 - The prototype is designed for academic demonstration and is not a certified fire safety system.
 
+
 ### 🚀 Future Enhancements
 
 - 🎯 Improve sensor calibration and detection reliability.
@@ -137,6 +156,7 @@ The physical HOMIQ prototype was assembled and tested using an ESP32, MQ-2 senso
 - 🛡️ Integrate additional smart home safety sensors.
 - 🏘️ Expand support for multiple rooms and appliances.
 - 📡 Enhance remote monitoring and automation capabilities.
+
 
 ## 👩‍💻 Author
 
