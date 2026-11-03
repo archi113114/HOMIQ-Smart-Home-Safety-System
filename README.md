@@ -116,9 +116,6 @@ The HOMIQ system was tested in the Wokwi simulation environment.
 | Push notification | Alert notification received | Passed |
 | Return to safe condition | System restores normal operation | Passed |
 
-### Hardware Testing
-
-Physical hardware testing has not been fully verified and is documented separately from simulation results.
 
 ## Author
 Archita Singh
