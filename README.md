@@ -121,20 +121,21 @@ The HOMIQ system was tested in the Wokwi simulation environment.
 
 
 
+
 ## ⚠️ Limitations & 🚀 Future Enhancements
 
 ### ⚠️ Limitations
-- The project has primarily been validated through Wokwi simulation; complete hardware testing is pending.
-- Sensor accuracy depends on calibration and environmental conditions.
-- Remote monitoring requires an active internet connection.
-- HOMIQ is an academic prototype and is not a certified fire safety system.
+- Sensor accuracy may vary depending on calibration and environmental conditions.
+- Remote monitoring and notifications require a stable internet connection.
+- The prototype is designed for academic demonstration and is not a certified fire safety system.
 
 ### 🚀 Future Enhancements
-- Complete physical hardware implementation and testing.
 - Improve sensor calibration and detection reliability.
-- Add sensor data logging and historical monitoring.
+- Introduce sensor data logging and historical monitoring.
 - Integrate additional smart home safety sensors.
 - Expand support for multiple rooms and appliances.
+- Enhance remote monitoring and automation capabilities.
+
 
 
 ## Author
