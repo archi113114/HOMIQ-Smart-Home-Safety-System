@@ -75,10 +75,8 @@ The Blynk IoT platform is used for remote appliance control, safety monitoring, 
 
 ## 📂 Project Files
 
-- 💻 `sketch.ino` – Main Arduino simulation code.
-- 🔌 `diagram.json` – Circuit configuration.
-- 📚 `libraries.txt` – Required libraries.
-
+- 🧪 [Wokwi Simulation Files](Simulation/)
+- 🔌 [Physical Hardware Arduino IDE Code](Hardware/HOMIQ_Hardware.ino)
 ## ⚙️ Working Principle
 
 1. 🌫️ The MQ-2 sensor detects smoke and gas.
@@ -122,7 +120,7 @@ The system was simulated and tested using Wokwi to verify its detection, alert, 
 
 ### 🔧 Physical Hardware Testing
 
-The physical HOMIQ prototype was assembled and tested to evaluate sensor integration, buzzer alerts, and relay-based appliance control.
+The physical HOMIQ prototype was assembled and tested using an ESP32, MQ-2 sensor, flame sensor, buzzer, relay module, 5V DC light bulb, and cooling fan. Testing was performed to evaluate sensor detection, buzzer alerts, and relay-based appliance control.
 
 ## ⚠️ Limitations & 🚀 Future Enhancements
 
