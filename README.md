@@ -99,9 +99,8 @@ The Blynk IoT platform is used for remote appliance control, safety monitoring a
 
 
 
-## 🔗 Project Resources
+## 🔗 Project Resource
 
-- [Wokwi Simulation](https://wokwi.com/projects/473805755748792321)
   
 - [Project Presentation (PPT)](https://docs.google.com/presentation/d/1RDyi6VGtCwIQhXVjRRvC7lH809DfLNZZ/edit)
 
