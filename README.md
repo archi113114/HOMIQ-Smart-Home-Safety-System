@@ -83,8 +83,7 @@ The Blynk IoT platform is used for remote appliance control, safety monitoring a
 6. A push notification is sent when danger is detected.
 7. When the environment becomes safe, the system returns to normal operation.
 
-## Wokwi Simulation
-**Project link:**[Open HOMIQ Wokwi Simulation](https://wokwi.com/projects/473805755748792321)
+
 
 ## 🖼️ Project Gallery
 
@@ -99,7 +98,10 @@ The Blynk IoT platform is used for remote appliance control, safety monitoring a
 
 
 
-## 🔗 Project Resource
+
+## 🔗 Project Resources
+
+- [Wokwi Simulation](https://wokwi.com/projects/473805755748792321)
 
   
 - [Project Presentation (PPT)](https://docs.google.com/presentation/d/1RDyi6VGtCwIQhXVjRRvC7lH809DfLNZZ/edit)
@@ -126,9 +128,7 @@ The system was simulated and tested using Wokwi to verify its detection, alert, 
 
 ### 🔧 Physical Hardware Testing
 
-The physical HOMIQ prototype was assembled and tested to demonstrate the integration of the ESP32, sensors, buzzer and relay-controlled appliances.
-
-
+The physical HOMIQ prototype was assembled and tested to evaluate sensor integration, buzzer alerts and relay-based appliance control.
 
 
 ## ⚠️ Limitations & 🚀 Future Enhancements
