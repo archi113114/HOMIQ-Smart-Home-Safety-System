@@ -117,5 +117,23 @@ The HOMIQ system was tested in the Wokwi simulation environment.
 | Return to safe condition | System restores normal operation | Passed |
 
 
+## Limitations
+
+- **Simulation-Based Validation:** The current implementation has been primarily developed and validated in the Wokwi simulation environment. Complete physical hardware validation is pending.
+- **Sensor Dependency:** Detection accuracy depends on sensor sensitivity, calibration, placement, and surrounding environmental conditions.
+- **Connectivity Requirement:** Blynk-based remote monitoring and notifications require a stable internet connection.
+- **Prototype Scope:** HOMIQ is an academic prototype and is not certified for use as an independent life-safety or fire protection system.
+
+## Future Scope
+
+- **Hardware Implementation:** Complete the physical prototype and perform systematic testing under controlled conditions.
+- **Enhanced Detection:** Incorporate improved sensor calibration and detection mechanisms to minimize false alarms.
+- **Real-Time Monitoring:** Introduce sensor data logging and historical monitoring through the Blynk dashboard.
+- **Advanced Connectivity:** Explore additional communication technologies for improved reliability and remote accessibility.
+- **System Expansion:** Integrate additional safety sensors, such as temperature, LPG leakage, and water leakage sensors.
+- **Scalability:** Extend the platform to support multiple rooms and additional smart home appliances.
+
+
+
 ## Author
 Archita Singh
