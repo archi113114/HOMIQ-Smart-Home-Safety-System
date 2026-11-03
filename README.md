@@ -98,8 +98,27 @@ The Blynk IoT platform is used for remote appliance control, safety monitoring a
 
 
 
-## Testing
-The project has been tested in the Wokwi simulation environment. Hardware testing should be documented separately.
+
+## Testing and Results
+
+### Wokwi Simulation Testing
+
+The HOMIQ system was tested in the Wokwi simulation environment.
+
+| Test Case | Expected Result | Status |
+|---|---|---|
+| Normal condition | System displays Normal - Safe | Passed |
+| Smoke detection | Buzzer ON and relay outputs OFF | Passed |
+| Fire detection | Buzzer ON and relay outputs OFF | Passed |
+| Light control through Blynk | Light responds to app control | Passed |
+| Fan control through Blynk | Fan responds to app control | Passed |
+| Safety status monitoring | Status displayed in Blynk | Passed |
+| Push notification | Alert notification received | Passed |
+| Return to safe condition | System restores normal operation | Passed |
+
+### Hardware Testing
+
+Physical hardware testing has not been fully verified and is documented separately from simulation results.
 
 ## Author
 Archita Singh
