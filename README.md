@@ -86,17 +86,24 @@ The Blynk IoT platform is used for remote appliance control, safety monitoring a
 ## Wokwi Simulation
 **Project link:**[Open HOMIQ Wokwi Simulation](https://wokwi.com/projects/473805755748792321)
 
-## Project Images
+## 🖼️ Project Gallery
 
+### 💻 Wokwi Circuit Simulation
 
-### Wokwi Simulation
 ![HOMIQ Wokwi Simulation](images/wokwi%20simulation.png.png)
 
-### Hardware Prototype
+### 🏠 Hardware Prototype
+
 ![HOMIQ Hardware Prototype](images/HOMIQ%20Smart%20Home%20Safety%20Prototype.png)
 
 
-**PROJECT PPT LINK :**[ Take a look ](https://docs.google.com/presentation/d/1RDyi6VGtCwIQhXVjRRvC7lH809DfLNZZ/edit?usp=sharing&ouid=115488542656342462056&rtpof=true&sd=true)
+
+
+## 🔗 Project Resources
+
+- [Wokwi Simulation](https://wokwi.com/projects/473805755748792321)
+  
+- [Project Presentation (PPT)](https://docs.google.com/presentation/d/1RDyi6VGtCwIQhXVjRRvC7lH809DfLNZZ/edit)
 
 
 
