@@ -48,6 +48,23 @@ HOMIQ is an ESP32-based smart home safety project developed and simulated using 
 **Note:** GPIO connections describe the control-side wiring. Relay load-side terminal connections must be verified separately. MQ-2 D0 must not exceed the ESP32 GPIO input limit of 3.3V; use a suitable level shifter or voltage divider if its output is 5V. Do not power the loads directly from ESP32 GPIO pins.
 
 
+## Blynk IoT Configuration
+
+The Blynk IoT platform is used for remote appliance control, safety monitoring and alert notifications.
+
+| Virtual Pin | Datastream Name | Data Type | Function |
+|---|---|---|---|
+| V0 | Light Control | Integer (0/1) | Controls the light through the relay module. |
+| V1 | Fan Control | Integer (0/1) | Controls the fan through the relay module. |
+| V2 | Safety Status | String | Displays the current safety condition. |
+
+### Notification Event
+
+| Event Name | Event Code | Purpose |
+|---|---|---|
+| Fire Smoke Alert | `fire_smoke_alert` | Sends a push notification when smoke or fire is detected. |
+
+
 ## Project Files
 - `sketch.ino` – Main Arduino simulation code
 - `diagram.json` – Circuit configuration
