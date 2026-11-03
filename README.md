@@ -4,12 +4,15 @@
 HOMIQ is an ESP32-based smart home safety project developed and simulated using Wokwi.
 
 ## Features
-- Smoke and gas detection using the MQ-2 sensor
-- Fire detection using a flame sensor
-- Buzzer alert when danger is detected
-- Relay-based light and fan control
-- Safety status monitoring
 
+- Smoke and combustible gas detection using the MQ-2 sensor.
+- Flame detection using a flame sensor.
+- Automatic buzzer alert during detected danger conditions.
+- Relay-based light and fan control.
+- Remote appliance control through the Blynk IoT application.
+- Real-time safety status monitoring.
+- Mobile push notifications for smoke and fire alerts.
+- Automatic return to normal operation when the danger condition clears.
 
 ## Hardware Components and ESP32 Pin Connections
 
