@@ -10,12 +10,43 @@ HOMIQ is an ESP32-based smart home safety project developed and simulated using 
 - Relay-based light and fan control
 - Safety status monitoring
 
-## Components
-- ESP32
-- MQ-2 sensor
-- Flame sensor
-- Buzzer
-- Relay module
+
+## Hardware Components and ESP32 Pin Connections
+
+### 1. Component Connection Table
+
+| Component | Component Pin | ESP32 Connection |
+|---|---|---|
+| MQ-2 Sensor | VCC | VIN / 5V |
+| MQ-2 Sensor | GND | GND |
+| MQ-2 Sensor | D0 | GPIO 27 |
+| Flame Sensor (Wokwi) | VCC | 3V3 |
+| Flame Sensor (Wokwi) | GND | GND |
+| Flame Sensor (Wokwi) | DO | GPIO 33 |
+| Buzzer | Signal (+) | GPIO 14 |
+| Buzzer | GND (-) | GND |
+| Relay Module | VCC | VIN / 5V |
+| Relay Module | GND | GND |
+| Relay Module | IN1 (Light) | GPIO 26 |
+| Relay Module | IN2 (Fan) | GPIO 25 |
+
+### 2. Real Hardware Sensor Connections
+
+| Component | Component Pin | ESP32 Connection |
+|---|---|---|
+| Flame Sensor | VCC | 3V3 |
+| Flame Sensor | GND | GND |
+| Flame Sensor | AO | GPIO 34 |
+
+### 3. Output Devices
+
+| Output Device | Relay Channel |
+|---|---|
+| 5V DC Light Bulb | Relay Channel 1 (IN1) |
+| 5V DC Cooling Fan | Relay Channel 2 (IN2) |
+
+**Note:** GPIO connections describe the control-side wiring. Relay load-side terminal connections must be verified separately. MQ-2 D0 must not exceed the ESP32 GPIO input limit of 3.3V; use a suitable level shifter or voltage divider if its output is 5V. Do not power the loads directly from ESP32 GPIO pins.
+
 
 ## Project Files
 - `sketch.ino` – Main Arduino simulation code
