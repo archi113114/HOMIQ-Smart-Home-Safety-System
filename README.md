@@ -22,6 +22,16 @@ HOMIQ is an ESP32-based smart home safety project developed and simulated using 
 - `diagram.json` – Circuit configuration
 - `libraries.txt` – Required libraries
 
+ ## Working Principle
+
+1. The MQ-2 sensor detects smoke and gas.
+2. The flame sensor detects fire.
+3. When smoke or fire is detected, the ESP32 activates the buzzer.
+4. The relay module turns OFF the connected light and fan.
+5. The safety status is updated in the Blynk application.
+6. A push notification is sent when danger is detected.
+7. When the environment becomes safe, the system returns to normal operation.
+
 ## Wokwi Simulation
 **Project link:**[Open HOMIQ Wokwi Simulation](https://wokwi.com/projects/473805755748792321)
 
